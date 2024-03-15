@@ -1,0 +1,149 @@
+*{
+  margin: 0;
+  padding: 0;
+  }
+  
+  body{
+      height:120vh;
+      background: linear-gradient(to bottom, rgb(50, 247, 220),white, rgb(240, 107, 129));
+  }
+  
+  body::-webkit-scrollbar{
+    width: 5px;
+  }
+  body::-webkit-scrollbar-thumb{
+    background-color: #62b8a2;
+    border-radius: 20px;
+  }
+  .register{
+      border: 2px solid rgb(235, 181, 190);
+      box-shadow:  0 20px 20px rgba(0, 0, 0, 0.2);;
+      width: 40%;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      background: linear-gradient(to top, rgb(50, 247, 220),white, rgb(240, 107, 129));
+      border-radius: 12px;
+      margin: 20px auto;
+  }
+  .title{
+  color: rgb(32, 31, 31);
+  margin: 20px auto;
+  font-family: cursive;
+  font-size: 38px;
+  border-bottom: 2px solid rgb(0,0,0,0.5);
+  font-weight: 500;
+  }
+  
+  .register form{
+      margin: auto ;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 80%;
+   }
+  .register form .set-input{
+      width: 70%;
+      margin: 5px;
+      padding: 10px;
+      color: rgb(46, 46, 53);
+      box-sizing: border-box;
+      text-align: center;
+      font-family: 'Times New Roman', Times, serif ;
+      font-size: large;
+      font-weight: 300;
+      border-radius: 12px;
+      outline: none;
+      border-color: transparent;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+   }
+  .register form .set-input:hover{
+      border: 1px solid rgb(124, 124, 124);
+      background-color: rgb(247, 245, 245);
+   }
+  .form button{
+  background-color: grey;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  border: 2px solid pink;
+  box-shadow: 0 10px 20px rgb(0,0,0,0.2);
+  box-sizing: border-box;
+  width: 70%;
+  margin: 5px;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif ;
+  font-size: large;
+  font-weight: 450;
+  border-radius: 12px;
+  border: 1px solid rgb(56, 54, 56);
+  margin-top: 40px;
+  }
+  .form button:hover{
+  background:blue;
+  color: white;
+  cursor: pointer;
+  }
+
+  /* Login */
+
+  
+.login-title{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.login-form{
+    width: 40%;
+    border: 0.2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    background: linear-gradient(to top, rgb(50, 247, 220),white, rgb(240, 107, 129));
+    border-radius: 12px;
+    box-shadow:  0 20px 20px rgba(0, 0, 0, 0.2);
+    margin: 30vh auto;
+}
+
+.login-form form{
+    width: 80%;
+}
+.login-form form input{
+    width: 80%;
+    border: 1px solid black;
+    margin: 5px auto;
+    padding: 10px;
+    color: rgb(46, 46, 53);
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif ;
+    font-size: large;
+    font-weight: 300;
+    border-radius: 12px;
+    outline: none;
+    border-color: transparent;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+
+.btn{
+    display: block;
+margin: 5px auto;
+width: 33%;
+}
+
+.login-form input:hover{
+  border: 1px solid rgb(124, 124, 124);
+  background-color: rgb(247, 245, 245);
+}
+
+.home-body{
+  height: 110vh;
+  width: 100%;
+  margin: 0;
+  background: url(../../welcome.jpg) no-repeat center ;
+  background-size: cover;
+}
